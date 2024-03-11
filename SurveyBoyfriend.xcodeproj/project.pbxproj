@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8181C5B72B9EAB6800CD6FB9 /* SurveyBoyfriendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5B62B9EAB6800CD6FB9 /* SurveyBoyfriendApp.swift */; };
+		8181C5B92B9EAB6800CD6FB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5B82B9EAB6800CD6FB9 /* ContentView.swift */; };
+		8181C5BB2B9EAB6900CD6FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8181C5BA2B9EAB6900CD6FB9 /* Assets.xcassets */; };
+		8181C5BE2B9EAB6900CD6FB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8181C5BD2B9EAB6900CD6FB9 /* Preview Assets.xcassets */; };
+		8181C5C82B9EAB6900CD6FB9 /* SurveyBoyfriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5C72B9EAB6900CD6FB9 /* SurveyBoyfriendTests.swift */; };
+		8181C5D22B9EAB6900CD6FB9 /* SurveyBoyfriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5D12B9EAB6900CD6FB9 /* SurveyBoyfriendUITests.swift */; };
+		8181C5D42B9EAB6900CD6FB9 /* SurveyBoyfriendUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5D32B9EAB6900CD6FB9 /* SurveyBoyfriendUITestsLaunchTests.swift */; };
+		8181C5E32B9EABCC00CD6FB9 /* Jalnan2TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8181C5E12B9EABCC00CD6FB9 /* Jalnan2TTF.ttf */; };
+		8181C5E52B9EAC0E00CD6FB9 /* SurveyFisrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5E42B9EAC0E00CD6FB9 /* SurveyFisrt.swift */; };
+		8181C5E72B9EAC3C00CD6FB9 /* SurveyTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5E62B9EAC3C00CD6FB9 /* SurveyTwo.swift */; };
+		8181C5E92B9EAC5F00CD6FB9 /* SurveyThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5E82B9EAC5F00CD6FB9 /* SurveyThree.swift */; };
+		8181C5EB2B9EAC6A00CD6FB9 /* SurveyFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5EA2B9EAC6A00CD6FB9 /* SurveyFour.swift */; };
+		8181C5ED2B9EAC7600CD6FB9 /* SurveyFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5EC2B9EAC7600CD6FB9 /* SurveyFive.swift */; };
+		8181C5EF2B9EAC7F00CD6FB9 /* SurveySix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5EE2B9EAC7F00CD6FB9 /* SurveySix.swift */; };
+		8181C5F12B9EAC9500CD6FB9 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5F02B9EAC9500CD6FB9 /* FinalView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8181C5C42B9EAB6900CD6FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8181C5AB2B9EAB6800CD6FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8181C5B22B9EAB6800CD6FB9;
+			remoteInfo = SurveyBoyfriend;
+		};
+		8181C5CE2B9EAB6900CD6FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8181C5AB2B9EAB6800CD6FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8181C5B22B9EAB6800CD6FB9;
+			remoteInfo = SurveyBoyfriend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8181C5B32B9EAB6800CD6FB9 /* SurveyBoyfriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurveyBoyfriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8181C5B62B9EAB6800CD6FB9 /* SurveyBoyfriendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyBoyfriendApp.swift; sourceTree = "<group>"; };
+		8181C5B82B9EAB6800CD6FB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8181C5BA2B9EAB6900CD6FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8181C5BD2B9EAB6900CD6FB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8181C5C32B9EAB6900CD6FB9 /* SurveyBoyfriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurveyBoyfriendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8181C5C72B9EAB6900CD6FB9 /* SurveyBoyfriendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyBoyfriendTests.swift; sourceTree = "<group>"; };
+		8181C5CD2B9EAB6900CD6FB9 /* SurveyBoyfriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurveyBoyfriendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8181C5D12B9EAB6900CD6FB9 /* SurveyBoyfriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyBoyfriendUITests.swift; sourceTree = "<group>"; };
+		8181C5D32B9EAB6900CD6FB9 /* SurveyBoyfriendUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyBoyfriendUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8181C5E02B9EAB8100CD6FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8181C5E12B9EABCC00CD6FB9 /* Jalnan2TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jalnan2TTF.ttf; sourceTree = "<group>"; };
+		8181C5E42B9EAC0E00CD6FB9 /* SurveyFisrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyFisrt.swift; sourceTree = "<group>"; };
+		8181C5E62B9EAC3C00CD6FB9 /* SurveyTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyTwo.swift; sourceTree = "<group>"; };
+		8181C5E82B9EAC5F00CD6FB9 /* SurveyThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyThree.swift; sourceTree = "<group>"; };
+		8181C5EA2B9EAC6A00CD6FB9 /* SurveyFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyFour.swift; sourceTree = "<group>"; };
+		8181C5EC2B9EAC7600CD6FB9 /* SurveyFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyFive.swift; sourceTree = "<group>"; };
+		8181C5EE2B9EAC7F00CD6FB9 /* SurveySix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveySix.swift; sourceTree = "<group>"; };
+		8181C5F02B9EAC9500CD6FB9 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8181C5B02B9EAB6800CD6FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8181C5C02B9EAB6900CD6FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8181C5CA2B9EAB6900CD6FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8181C5AA2B9EAB6800CD6FB9 = {
+			isa = PBXGroup;
+			children = (
+				8181C5B52B9EAB6800CD6FB9 /* SurveyBoyfriend */,
+				8181C5C62B9EAB6900CD6FB9 /* SurveyBoyfriendTests */,
+				8181C5D02B9EAB6900CD6FB9 /* SurveyBoyfriendUITests */,
+				8181C5B42B9EAB6800CD6FB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8181C5B42B9EAB6800CD6FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8181C5B32B9EAB6800CD6FB9 /* SurveyBoyfriend.app */,
+				8181C5C32B9EAB6900CD6FB9 /* SurveyBoyfriendTests.xctest */,
+				8181C5CD2B9EAB6900CD6FB9 /* SurveyBoyfriendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8181C5B52B9EAB6800CD6FB9 /* SurveyBoyfriend */ = {
+			isa = PBXGroup;
+			children = (
+				8181C5E02B9EAB8100CD6FB9 /* Info.plist */,
+				8181C5E22B9EABCC00CD6FB9 /* Font */,
+				8181C5B62B9EAB6800CD6FB9 /* SurveyBoyfriendApp.swift */,
+				8181C5B82B9EAB6800CD6FB9 /* ContentView.swift */,
+				8181C5E42B9EAC0E00CD6FB9 /* SurveyFisrt.swift */,
+				8181C5E62B9EAC3C00CD6FB9 /* SurveyTwo.swift */,
+				8181C5E82B9EAC5F00CD6FB9 /* SurveyThree.swift */,
+				8181C5EA2B9EAC6A00CD6FB9 /* SurveyFour.swift */,
+				8181C5EC2B9EAC7600CD6FB9 /* SurveyFive.swift */,
+				8181C5EE2B9EAC7F00CD6FB9 /* SurveySix.swift */,
+				8181C5F02B9EAC9500CD6FB9 /* FinalView.swift */,
+				8181C5BA2B9EAB6900CD6FB9 /* Assets.xcassets */,
+				8181C5BC2B9EAB6900CD6FB9 /* Preview Content */,
+			);
+			path = SurveyBoyfriend;
+			sourceTree = "<group>";
+		};
+		8181C5BC2B9EAB6900CD6FB9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8181C5BD2B9EAB6900CD6FB9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8181C5C62B9EAB6900CD6FB9 /* SurveyBoyfriendTests */ = {
+			isa = PBXGroup;
+			children = (
+				8181C5C72B9EAB6900CD6FB9 /* SurveyBoyfriendTests.swift */,
+			);
+			path = SurveyBoyfriendTests;
+			sourceTree = "<group>";
+		};
+		8181C5D02B9EAB6900CD6FB9 /* SurveyBoyfriendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8181C5D12B9EAB6900CD6FB9 /* SurveyBoyfriendUITests.swift */,
+				8181C5D32B9EAB6900CD6FB9 /* SurveyBoyfriendUITestsLaunchTests.swift */,
+			);
+			path = SurveyBoyfriendUITests;
+			sourceTree = "<group>";
+		};
+		8181C5E22B9EABCC00CD6FB9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8181C5E12B9EABCC00CD6FB9 /* Jalnan2TTF.ttf */,
+			);
+			path = Font;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8181C5B22B9EAB6800CD6FB9 /* SurveyBoyfriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8181C5D72B9EAB6900CD6FB9 /* Build configuration list for PBXNativeTarget "SurveyBoyfriend" */;
+			buildPhases = (
+				8181C5AF2B9EAB6800CD6FB9 /* Sources */,
+				8181C5B02B9EAB6800CD6FB9 /* Frameworks */,
+				8181C5B12B9EAB6800CD6FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurveyBoyfriend;
+			productName = SurveyBoyfriend;
+			productReference = 8181C5B32B9EAB6800CD6FB9 /* SurveyBoyfriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8181C5C22B9EAB6900CD6FB9 /* SurveyBoyfriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8181C5DA2B9EAB6900CD6FB9 /* Build configuration list for PBXNativeTarget "SurveyBoyfriendTests" */;
+			buildPhases = (
+				8181C5BF2B9EAB6900CD6FB9 /* Sources */,
+				8181C5C02B9EAB6900CD6FB9 /* Frameworks */,
+				8181C5C12B9EAB6900CD6FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8181C5C52B9EAB6900CD6FB9 /* PBXTargetDependency */,
+			);
+			name = SurveyBoyfriendTests;
+			productName = SurveyBoyfriendTests;
+			productReference = 8181C5C32B9EAB6900CD6FB9 /* SurveyBoyfriendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8181C5CC2B9EAB6900CD6FB9 /* SurveyBoyfriendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8181C5DD2B9EAB6900CD6FB9 /* Build configuration list for PBXNativeTarget "SurveyBoyfriendUITests" */;
+			buildPhases = (
+				8181C5C92B9EAB6900CD6FB9 /* Sources */,
+				8181C5CA2B9EAB6900CD6FB9 /* Frameworks */,
+				8181C5CB2B9EAB6900CD6FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8181C5CF2B9EAB6900CD6FB9 /* PBXTargetDependency */,
+			);
+			name = SurveyBoyfriendUITests;
+			productName = SurveyBoyfriendUITests;
+			productReference = 8181C5CD2B9EAB6900CD6FB9 /* SurveyBoyfriendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8181C5AB2B9EAB6800CD6FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8181C5B22B9EAB6800CD6FB9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					8181C5C22B9EAB6900CD6FB9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8181C5B22B9EAB6800CD6FB9;
+					};
+					8181C5CC2B9EAB6900CD6FB9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8181C5B22B9EAB6800CD6FB9;
+					};
+				};
+			};
+			buildConfigurationList = 8181C5AE2B9EAB6800CD6FB9 /* Build configuration list for PBXProject "SurveyBoyfriend" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8181C5AA2B9EAB6800CD6FB9;
+			productRefGroup = 8181C5B42B9EAB6800CD6FB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8181C5B22B9EAB6800CD6FB9 /* SurveyBoyfriend */,
+				8181C5C22B9EAB6900CD6FB9 /* SurveyBoyfriendTests */,
+				8181C5CC2B9EAB6900CD6FB9 /* SurveyBoyfriendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8181C5B12B9EAB6800CD6FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8181C5BE2B9EAB6900CD6FB9 /* Preview Assets.xcassets in Resources */,
+				8181C5E32B9EABCC00CD6FB9 /* Jalnan2TTF.ttf in Resources */,
+				8181C5BB2B9EAB6900CD6FB9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8181C5C12B9EAB6900CD6FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8181C5CB2B9EAB6900CD6FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8181C5AF2B9EAB6800CD6FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8181C5E92B9EAC5F00CD6FB9 /* SurveyThree.swift in Sources */,
+				8181C5ED2B9EAC7600CD6FB9 /* SurveyFive.swift in Sources */,
+				8181C5B92B9EAB6800CD6FB9 /* ContentView.swift in Sources */,
+				8181C5F12B9EAC9500CD6FB9 /* FinalView.swift in Sources */,
+				8181C5E52B9EAC0E00CD6FB9 /* SurveyFisrt.swift in Sources */,
+				8181C5EF2B9EAC7F00CD6FB9 /* SurveySix.swift in Sources */,
+				8181C5EB2B9EAC6A00CD6FB9 /* SurveyFour.swift in Sources */,
+				8181C5E72B9EAC3C00CD6FB9 /* SurveyTwo.swift in Sources */,
+				8181C5B72B9EAB6800CD6FB9 /* SurveyBoyfriendApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8181C5BF2B9EAB6900CD6FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8181C5C82B9EAB6900CD6FB9 /* SurveyBoyfriendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8181C5C92B9EAB6900CD6FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8181C5D22B9EAB6900CD6FB9 /* SurveyBoyfriendUITests.swift in Sources */,
+				8181C5D42B9EAB6900CD6FB9 /* SurveyBoyfriendUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8181C5C52B9EAB6900CD6FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8181C5B22B9EAB6800CD6FB9 /* SurveyBoyfriend */;
+			targetProxy = 8181C5C42B9EAB6900CD6FB9 /* PBXContainerItemProxy */;
+		};
+		8181C5CF2B9EAB6900CD6FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8181C5B22B9EAB6800CD6FB9 /* SurveyBoyfriend */;
+			targetProxy = 8181C5CE2B9EAB6900CD6FB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8181C5D52B9EAB6900CD6FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8181C5D62B9EAB6900CD6FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8181C5D82B9EAB6900CD6FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SurveyBoyfriend/Preview Content\"";
+				DEVELOPMENT_TEAM = 9GNP4TPU8Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SurveyBoyfriend/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yang.Project.SurveyBoyfriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8181C5D92B9EAB6900CD6FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SurveyBoyfriend/Preview Content\"";
+				DEVELOPMENT_TEAM = 9GNP4TPU8Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SurveyBoyfriend/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yang.Project.SurveyBoyfriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8181C5DB2B9EAB6900CD6FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GNP4TPU8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yang.Project.SurveyBoyfriendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurveyBoyfriend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SurveyBoyfriend";
+			};
+			name = Debug;
+		};
+		8181C5DC2B9EAB6900CD6FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GNP4TPU8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yang.Project.SurveyBoyfriendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurveyBoyfriend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SurveyBoyfriend";
+			};
+			name = Release;
+		};
+		8181C5DE2B9EAB6900CD6FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GNP4TPU8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yang.Project.SurveyBoyfriendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SurveyBoyfriend;
+			};
+			name = Debug;
+		};
+		8181C5DF2B9EAB6900CD6FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GNP4TPU8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yang.Project.SurveyBoyfriendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SurveyBoyfriend;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8181C5AE2B9EAB6800CD6FB9 /* Build configuration list for PBXProject "SurveyBoyfriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8181C5D52B9EAB6900CD6FB9 /* Debug */,
+				8181C5D62B9EAB6900CD6FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8181C5D72B9EAB6900CD6FB9 /* Build configuration list for PBXNativeTarget "SurveyBoyfriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8181C5D82B9EAB6900CD6FB9 /* Debug */,
+				8181C5D92B9EAB6900CD6FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8181C5DA2B9EAB6900CD6FB9 /* Build configuration list for PBXNativeTarget "SurveyBoyfriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8181C5DB2B9EAB6900CD6FB9 /* Debug */,
+				8181C5DC2B9EAB6900CD6FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8181C5DD2B9EAB6900CD6FB9 /* Build configuration list for PBXNativeTarget "SurveyBoyfriendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8181C5DE2B9EAB6900CD6FB9 /* Debug */,
+				8181C5DF2B9EAB6900CD6FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8181C5AB2B9EAB6800CD6FB9 /* Project object */;
+}
